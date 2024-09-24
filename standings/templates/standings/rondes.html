@@ -1,0 +1,29 @@
+{% extends "standings/base.html" %}
+{% block content %}
+    <h1>Primera ronda</h1>
+    {% for round in rounds %}
+    <article class="media content-section">
+        <div class="media-body">
+          <div class="article-metadata">
+            <a class="mr-2" href="#">Jornada: {{ round.num }} </a>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Jugador</th>
+                    <th scope="col">Punts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for player in round %}
+                    <tr>
+                      <th scope="row">{{ forloop.counter }}</th>
+                      <td>{{ player.name }}</td>
+                      <td>{{ player.points }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+      </article>
+    {% endfor %}
+{% endblock content %}

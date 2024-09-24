@@ -2,5 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse('<h1>Standings Home</h1>')
+    return render(request, 'standings/home.html')
+
+def tornejos(request):
+    return render(request, 'standings/rondes.html')
 # Create your views here.
