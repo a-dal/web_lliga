@@ -1,5 +1,39 @@
 {% extends "standings/base.html" %}
 {% block content %}
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3"></nav>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#1">1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#2">2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#3">3</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#4">4</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#5">5</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#6">6</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#7">7</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#8">8</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#9">9</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#10">10</a>
+    </li>
+  </ul>
+</nav>
     {% if not rounds %}
     <h1>Començem l'1 d'Octubre</h1>
     {% else %}
@@ -7,7 +41,7 @@
     <article class="media content-section">
         <div class="media-body">
           <div class="article-metadata">
-            <a class="mr-2" href="#">Jornada: {{ round.number }} </a>
+            <a id="{{ round.number }}" class="mr-2" href="#navbar-example2">Jornada: {{ round.number }} </a>
             <table class="table table-striped">
                 <thead>
                   <tr>
