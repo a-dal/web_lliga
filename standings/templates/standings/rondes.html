@@ -1,6 +1,8 @@
 {% extends "standings/base.html" %}
 {% block content %}
-    <h1>Primera ronda</h1>
+    {% if not round %}
+    <h1>Començem l'1 d'Octubre</h1>
+    {% else %}
     {% for round in rounds %}
     <article class="media content-section">
         <div class="media-body">
@@ -26,4 +28,5 @@
               </table>
       </article>
     {% endfor %}
+    {% endif %}
 {% endblock content %}
