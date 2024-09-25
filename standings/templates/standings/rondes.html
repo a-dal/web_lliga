@@ -1,13 +1,13 @@
 {% extends "standings/base.html" %}
 {% block content %}
-    {% if not round %}
+    {% if not rounds %}
     <h1>Començem l'1 d'Octubre</h1>
     {% else %}
     {% for round in rounds %}
     <article class="media content-section">
         <div class="media-body">
           <div class="article-metadata">
-            <a class="mr-2" href="#">Jornada: {{ round.num }} </a>
+            <a class="mr-2" href="#">Jornada: {{ round.number }} </a>
             <table class="table table-striped">
                 <thead>
                   <tr>
@@ -17,7 +17,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  {% for player in round %}
+                  {% for player in round.players %}
                     <tr>
                       <th scope="row">{{ forloop.counter }}</th>
                       <td>{{ player.name }}</td>
