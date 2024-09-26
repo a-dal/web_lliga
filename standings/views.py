@@ -5,79 +5,151 @@ rounds = [
     {
         "number": "1",
         "players": [
-            {"name": "Player 1", "points": 10},
-            {"name": "Player 2", "points": 9},
-            {"name": "Player 3", "points": 8},
-            {"name": "Player 4", "points": 7},
-            {"name": "Player 5", "points": 6},
-            {"name": "Player 6", "points": 5},
-            {"name": "Player 7", "points": 4},
-            {"name": "Player 8", "points": 3},
-            {"name": "Player 9", "points": 2},
-            {"name": "Player 10", "points": 1}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "2",
         "players": [
-            {"name": "Player 1", "points": 10},
-            {"name": "Player 2", "points": 9},
-            {"name": "Player 3", "points": 8},
-            {"name": "Player 4", "points": 7},
-            {"name": "Player 5", "points": 6},
-            {"name": "Player 6", "points": 5},
-            {"name": "Player 7", "points": 4},
-            {"name": "Player 8", "points": 3},
-            {"name": "Player 9", "points": 2},
-            {"name": "Player 10", "points": 1}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "3",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "4",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "5",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "6",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "7",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "8",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "9",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     },
     {
         "number": "10",
         "players": [
-            {"name": "Player 1", "points": 10}
+            {"name": "", "points": 10, "deck":""},
+            {"name": "", "points": 9, "deck":""},
+            {"name": "", "points": 8, "deck":""},
+            {"name": "", "points": 7, "deck":""},
+            {"name": "", "points": 6, "deck":""},
+            {"name": "", "points": 5, "deck":""},
+            {"name": "", "points": 4, "deck":""},
+            {"name": "", "points": 3, "deck":""},
+            {"name": "", "points": 2, "deck":""},
+            {"name": "", "points": 1, "deck":""}
         ]
     }
     ]
@@ -90,9 +162,11 @@ def home(request):
     # Iterate over each round
     for round_data in rounds:  # 'rounds' is accessible here
         for player in round_data["players"]:
-            player_name = player["name"]
-            player_points = player["points"]
-
+            if player["name"] != "":
+                player_name = player["name"]
+                player_points = player["points"]
+            else:
+                break
             # Initialize the player's total points and rounds if not already present
             if player_name not in player_totals:
                 player_totals[player_name] = []
@@ -122,6 +196,6 @@ def home(request):
     return render(request, 'standings/home.html', {'standings': player_summary})
 
 def tornejos(request):
-
+    rounds = None
     return render(request, 'standings/rondes.html', {'rounds': rounds})
 # Create your views here.
