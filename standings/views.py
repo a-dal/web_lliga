@@ -5,16 +5,16 @@ rounds = [
     {
         "number": "1",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Aleix Dominguez", "points": 10, "deck":"Atraxa, Grand unifier"},
+            {"name": "Eros Montero", "points": 9, "deck":"Legolas, Master archer"},
+            {"name": "Beto Berdegal", "points": 8, "deck":"Ghyrson Starn, Kelermorph"},
+            {"name": "Carlos Pedrosa", "points": 7, "deck":"Ghyrson Starn, Kelermorph"},
+            {"name": "Alex Garcia", "points": 6, "deck":"Malcom, Truhan Seductor"},
+            {"name": "Victor Pedrosa", "points": 5, "deck":"Zoyowa, Lava-tongue"},
+            {"name": "Eudald Cumalat", "points": 4, "deck":"Emmara, Soul of the accord"},
+            {"name": "Marcos Aguilar", "points": 3, "deck":"Marchesa, Dealer of death"},
+            {"name": "Marc Pelegri", "points": 2, "deck":"Ghyrson Starn, Kelermorph"},
+            {"name": "Codina", "points": 1, "deck":"Hazel of the Rootbloom"}
         ]
     },
     {
@@ -196,6 +196,5 @@ def home(request):
     return render(request, 'standings/home.html', {'standings': player_summary})
 
 def tornejos(request):
-    rounds = None
     return render(request, 'standings/rondes.html', {'rounds': rounds})
 # Create your views here.
