@@ -55,7 +55,11 @@
                     <tr>
                       <th scope="row">{{ forloop.counter }}</th>
                       <td>{{ player.name }}</td>
-                      <td><a href="https://duckduckgo.com/?q=!ducky+{{ player.deck }}">{{ player.deck }}</a></td>
+                      <td><a href="https://duckduckgo.com/?q=!ducky+{{ player.deck }}" target="popup"  onclick="window.open('https://duckduckgo.com/?q=!ducky+{{ player.deck }}+image','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">{{ player.deck }}</a>
+                        {% for icon in player.icons %}
+                        <i class="ms ms-{{ icon }}"></i>
+                        {% endfor %}
+                      </td>
                     </tr>
                   {% endfor %}
                 </tbody>

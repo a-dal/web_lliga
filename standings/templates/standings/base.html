@@ -1,4 +1,5 @@
 {% load static %}
+{% load icons %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="{% static 'standings/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'standings/mana-master/css/mana.css' %}">
 
     {% if title %}
         <title>{{ title }}</title>
@@ -22,8 +24,10 @@
     <header class="site-header">
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="{% url 'standings-home' %}">Classificació lliga Duel EDH</a>
+          <a class="navbar-brand" href="{% url 'standings-home' %}">Lliga Duel EDH</a>
           <a class="nav-item nav-link" href="{% url 'standings-tornejos' %}">Tornejos</a>
+          <a class="nav-item nav-link" href="{% url 'standings-home' %}">Classificació</a>
+          <a class="nav-item nav-link" href="https://www.cardmarket.com/en/Magic/Users/HamelinGames">Vols mes mel?</a>
         </div>
       </nav>
     </header>

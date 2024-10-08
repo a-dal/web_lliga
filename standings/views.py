@@ -5,31 +5,27 @@ rounds = [
     {
         "number": "1",
         "players": [
-            {"name": "Aleix Dominguez", "points": 10, "deck":"Atraxa, Grand unifier"},
-            {"name": "Eros Montero", "points": 9, "deck":"Legolas, Master archer"},
-            {"name": "Beto Berdegal", "points": 8, "deck":"Ghyrson Starn, Kelermorph"},
-            {"name": "Carlos Pedrosa", "points": 7, "deck":"Ghyrson Starn, Kelermorph"},
-            {"name": "Alex Garcia", "points": 6, "deck":"Malcom, Truhan Seductor"},
-            {"name": "Victor Pedrosa", "points": 5, "deck":"Zoyowa, Lava-tongue"},
-            {"name": "Eudald Cumalat", "points": 4, "deck":"Emmara, Soul of the accord"},
-            {"name": "Marcos Aguilar", "points": 3, "deck":"Marchesa, Dealer of death"},
-            {"name": "Marc Pelegri", "points": 2, "deck":"Ghyrson Starn, Kelermorph"},
-            {"name": "Codina", "points": 1, "deck":"Hazel of the Rootbloom"}
+            {"name": "Aleix Dominguez", "points": 10, "deck":"Atraxa, Grand Unifier", "icons": ["g", "w", "u", "b"]},
+            {"name": "Eros Montero", "points": 9, "deck":"Legolas, Master Archer", "icons": ["g"]},
+            {"name": "Beto Berdegal", "points": 8, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Carlos Pedrosa", "points": 7, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Alex Garcia", "points": 6, "deck":"Malcom, Truhan Seductor", "icons": ["u"]},
+            {"name": "Victor Pedrosa", "points": 5, "deck":"Zoyowa, Lava-tongue", "icons": ["b", "r"]},
+            {"name": "Eudald Cumalat", "points": 4, "deck":"Emmara, Soul of the Accord", "icons": ["g", "w"]},
+            {"name": "Marcos Aguilar", "points": 3, "deck":"Marchesa, Dealer of Death", "icons": ["r", "u", "b"]},
+            {"name": "Marc Pelegri", "points": 2, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Codina", "points": 1, "deck":"Hazel of the Rootbloom", "icons": ["g", "b"]}
         ]
     },
     {
         "number": "2",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Marcos Aguilar", "points": 10, "deck":"Marchesa, Dealer of Death", "icons": ["r", "u", "b"]},
+            {"name": "Beto Berdegal", "points": 9, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Alex Garcia", "points": 8, "deck":"Malcom, Truhan Seductor", "icons": ["u"]},
+            {"name": "Javier Ruiz", "points": 7, "deck":"The Ancient One", "icons": ["u", "b"]},
+            {"name": "Aleix Dominguez", "points": 6, "deck":"Atraxa, Grand Unifier", "icons": ["g", "w", "u", "b"]},
+            {"name": "Codina", "points": 5, "deck":"Laughing Jasper Flint", "icons": ["b", "r"]}
         ]
     },
     {
