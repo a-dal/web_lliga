@@ -14,7 +14,7 @@ rounds = [
             {"name": "Eudald Cumalat", "points": 4, "deck":"Emmara, Soul of the Accord", "icons": ["g", "w"]},
             {"name": "Marcos Aguilar", "points": 3, "deck":"Marchesa, Dealer of Death", "icons": ["r", "u", "b"]},
             {"name": "Marc Pelegri", "points": 2, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
-            {"name": "Codina", "points": 1, "deck":"Hazel of the Rootbloom", "icons": ["g", "b"]}
+            {"name": "Sergi Codina", "points": 1, "deck":"Hazel of the Rootbloom", "icons": ["g", "b"]}
         ]
     },
     {
@@ -25,22 +25,18 @@ rounds = [
             {"name": "Alex Garcia", "points": 8, "deck":"Malcom, Truhan Seductor", "icons": ["u"]},
             {"name": "Javier Ruiz", "points": 7, "deck":"The Ancient One", "icons": ["u", "b"]},
             {"name": "Aleix Dominguez", "points": 6, "deck":"Atraxa, Grand Unifier", "icons": ["g", "w", "u", "b"]},
-            {"name": "Codina", "points": 5, "deck":"Laughing Jasper Flint", "icons": ["b", "r"]}
+            {"name": "Sergi Codina", "points": 5, "deck":"Laughing Jasper Flint", "icons": ["b", "r"]}
         ]
     },
     {
         "number": "3",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Beto Berdegal", "points": 10, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Carlos Pedrosa", "points": 9, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Aleix Dominguez", "points": 8, "deck":"Atraxa, Grand Unifier", "icons": ["g", "w", "u", "b"]},
+            {"name": "Eudald Cumalat", "points": 7, "deck":"Emmara, Soul of the Accord", "icons": ["g", "w"]},
+            {"name": "Sergi Codina", "points": 6, "deck":"Laughing Jasper Flint", "icons": ["b", "r"]},
+            {"name": "Eros Montero", "points": 5, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]}
         ]
     },
     {
