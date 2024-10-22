@@ -42,16 +42,15 @@ rounds = [
     {
         "number": "4",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Beto Berdegal", "points": 10, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Aleix Dominguez", "points": 9, "deck":"Phlage, Titan of Fire's Fury", "icons": ["w", "r"]},
+            {"name": "Carlos Pedrosa", "points": 8, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Alex Garcia", "points": 7, "deck":"Basim Ibn Ishaq", "icons": ["u", "b"]},
+            {"name": "Eros Montero", "points": 6, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]},
+            {"name": "Gerard Coll", "points": 5, "deck":"Balmor, Battlemage Captain", "icons": ["r", "u"]},
+            {"name": "Sergi Codina", "points": 4, "deck":"Hazel of the Rootbloom", "icons": ["g", "b"]},
+            {"name": "Marcos Aguilar", "points": 3, "deck":"Marchesa, Dealer of Death", "icons": ["r", "u", "b"]},
+            {"name": "Eudald Cumalat", "points": 2, "deck":"Geralf, Visionary Stitcher", "icons": ["u"]}
         ]
     },
     {
