@@ -56,16 +56,13 @@ rounds = [
     {
         "number": "5",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Aleix Dominguez", "points": 10, "deck":"Phlage, Titan of Fire's Fury", "icons": ["w", "r"]},
+            {"name": "Carlos Pedrosa", "points": 9, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Beto Berdegal", "points": 8, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Sergi Codina", "points": 7, "deck":"Gev, Scaled Scorch", "icons": ["b", "r"]},
+            {"name": "Alex Garcia", "points": 6, "deck":"Basim Ibn Ishaq", "icons": ["u", "b"]},
+            {"name": "Javier Ruiz", "points": 5, "deck":"The Ancient One", "icons": ["u", "b"]},
+            {"name": "Joan Lloret", "points": 4, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]}
         ]
     },
     {
