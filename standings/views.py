@@ -68,16 +68,14 @@ rounds = [
     {
         "number": "6",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Beto Berdegal", "points": 10, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Eros Montero", "points": 9, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]},
+            {"name": "Pol Rodríguez", "points": 8, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]},
+            {"name": "Marcos Aguilar", "points": 7, "deck":"Marchesa, Dealer of Death", "icons": ["r", "u", "b"]},
+            {"name": "Javier Ruiz", "points": 6, "deck":"The Ancient One", "icons": ["u", "b"]},
+            {"name": "Carlos Pedrosa", "points": 5, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Alex Garcia", "points": 4, "deck":"Ertai Resurrected", "icons": ["u", "b"]},
+            {"name": "Martí Llinés", "points": 3, "deck":"Emmara, Soul of the Accord", "icons": ["g", "w"]}
         ]
     },
     {
