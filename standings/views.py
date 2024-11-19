@@ -94,16 +94,12 @@ rounds = [
     {
         "number": "8",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Beto Berdegal", "points": 10, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Aleix Dominguez", "points": 9, "deck":"Phlage, Titan of Fire's Fury", "icons": ["w", "r"]},
+            {"name": "Eros Montero", "points": 8, "deck":"Goro-Goro and Satoru", "icons": ["u", "b", "r"]},
+            {"name": "Alex Garcia", "points": 7, "deck":"Malcom, Truhan Seductor", "icons": ["u"]},
+            {"name": "Sergi Codina", "points": 6, "deck":"Gev, Scaled Scorch", "icons": ["b", "r"]},
+            {"name": "Marcos Aguilar", "points": 5, "deck":"Marchesa, Dealer of Death", "icons": ["r", "u", "b"]}
         ]
     },
     {
@@ -140,25 +136,34 @@ rounds = [
 
 def home(request):
     player_totals = {}
-    # Dictionary to store the count of rounds for each player
     player_rounds = {}
+    player_positions = {}  # Dictionary to store position frequencies for each player
 
     # Iterate over each round
-    for round_data in rounds:  # 'rounds' is accessible here
-        for player in round_data["players"]:
+    for round_data in rounds:
+        sorted_players = sorted(
+            round_data["players"], key=lambda p: p["points"], reverse=True
+        )  # Sort players by points in the round
+
+        for position, player in enumerate(sorted_players, start=1):  # Position starts at 1
             if player["name"] != "":
                 player_name = player["name"]
                 player_points = player["points"]
             else:
                 break
-            # Initialize the player's total points and rounds if not already present
+
+            # Initialize player data if not already present
             if player_name not in player_totals:
                 player_totals[player_name] = []
-                player_rounds[player_name] = 0  # Initialize round count
+                player_rounds[player_name] = 0
+                player_positions[player_name] = [0] * 10  # Track up to 10 positions
 
-            # Append the points to the player's total points list
+            # Append points and increment round count
             player_totals[player_name].append(player_points)
-            player_rounds[player_name] += 1  # Increment round count
+            player_rounds[player_name] += 1
+
+            # Update position frequency
+            player_positions[player_name][position - 1] += 1
 
     # Dictionary to store the best 7 results for each player
     best_player_totals = {}
@@ -168,12 +173,20 @@ def home(request):
         best_points = sorted(points, reverse=True)[:7]
         best_player_totals[player_name] = sum(best_points)
 
-    # Create an ordered list of players by their total points (descending order)
-    ordered_players = sorted(best_player_totals.items(), key=lambda x: x[1], reverse=True)
+    # Create an ordered list of players with tiebreakers
+    ordered_players = sorted(
+        best_player_totals.items(),
+        key=lambda x: (
+            x[1],  # Total points
+            player_positions[x[0]],  # Position frequencies
+        ),
+        reverse=True,
+    )
 
-    # Create a summary of players with their total points and rounds
+    # Create a summary of players with their total points, rounds, and position distribution
     player_summary = [
-        (name, total_points, player_rounds[name]) for name, total_points in ordered_players
+        (name, total_points, player_rounds[name], player_positions[name])
+        for name, total_points in ordered_players
     ]
 
 
