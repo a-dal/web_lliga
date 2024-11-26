@@ -105,16 +105,11 @@ rounds = [
     {
         "number": "9",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Aleix Dominguez", "points": 10, "deck":"Phlage, Titan of Fire's Fury", "icons": ["w", "r"]},
+            {"name": "Beto Berdegal", "points": 9, "deck":"Ghyrson Starn, Kelermorph", "icons": ["r", "u"]},
+            {"name": "Joan Lloret", "points": 8, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]},
+            {"name": "Martí Llinés", "points": 7, "deck":"Emmara, Soul of the Accord", "icons": ["g", "w"]},
+            {"name": "Sergi Codina", "points": 6, "deck":"Nazahn, Revered Bladesmith", "icons": ["g", "w"]}
         ]
     },
     {
