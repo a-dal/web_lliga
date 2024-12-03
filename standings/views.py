@@ -115,16 +115,14 @@ rounds = [
     {
         "number": "10",
         "players": [
-            {"name": "", "points": 10, "deck":""},
-            {"name": "", "points": 9, "deck":""},
-            {"name": "", "points": 8, "deck":""},
-            {"name": "", "points": 7, "deck":""},
-            {"name": "", "points": 6, "deck":""},
-            {"name": "", "points": 5, "deck":""},
-            {"name": "", "points": 4, "deck":""},
-            {"name": "", "points": 3, "deck":""},
-            {"name": "", "points": 2, "deck":""},
-            {"name": "", "points": 1, "deck":""}
+            {"name": "Aleix Dominguez", "points": 10, "deck":"Phlage, Titan of Fire's Fury", "icons": ["w", "r"]},
+            {"name": "Eros Montero", "points": 9, "deck":"Goro-Goro and Satoru", "icons": ["u", "b", "r"]},
+            {"name": "Alex Garcia", "points": 8, "deck":"Sheoldred, the Apocalypse", "icons": ["b"]},
+            {"name": "Beto Berdegal", "points": 7, "deck":"Aminatou, the Fateshifter", "icons": ["w", "u", "b"]},
+            {"name": "Carlos Pedrosa", "points": 6, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]},
+            {"name": "Joan Lloret", "points": 5, "deck":"Phelia, Exuberant Shepherd", "icons": ["w"]},
+            {"name": "Martí Llinés", "points": 4, "deck":"Emmara, Soul of the Accord", "icons": ["g", "w"]},
+            {"name": "Sergi Codina", "points": 3, "deck":"Nazahn, Revered Bladesmith", "icons": ["g", "w"]}
         ]
     }
     ]
